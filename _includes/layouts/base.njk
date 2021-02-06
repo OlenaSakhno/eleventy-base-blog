@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="{{ '/css/prism-base16-monokai.dark.css' | url }}">
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
     <link rel="alternate" href="{{ metadata.jsonfeed.path | url }}" type="application/json" title="{{ metadata.title }}">
-    <link rel="stylesheet" href="{{ 'css/bootstrap/css/bootstrap.min.css' | url }}">
+    <link rel="stylesheet" href="{{ '/css/bootstrap/css/bootstrap.min.css' | url }}">
   </head>
   <body>
     <!-- Start Header Area -->
@@ -61,23 +61,25 @@
 
     <!-- Current page: {{ page.url | url }} -->
 
+ 
+
+    <!--<script src="myscripts.js"></script>-->
+    <script src="{{ '/css/bootstrap/js/bootstrap.min.js' | url }}"></script>
+
     <script>
       //===== close navbar-collapse when a  clicked
       let navbarToggler = document.querySelector(".navbar-toggler");
       var navbarCollapse = document.querySelector(".collapse");
-      document.querySelectorAll(".page-scroll").forEach(e =>
+      /*document.querySelectorAll(".page-scroll").forEach(e =>
           e.addEventListener("click", () => {
               navbarToggler.classList.remove("active");
               navbarCollapse.classList.remove('show')
           })
-      );
+      );*/
       navbarToggler.addEventListener('click', function () {
           navbarToggler.classList.toggle("active");
           navbarCollapse.classList.toggle("show");
       })
     </script>
-
-    <script src="myscripts.js"></script>
-    <script src="{{ 'css/bootstrap/js/bootstrap.min.js' | url }}"></script>
   </body>
 </html>
