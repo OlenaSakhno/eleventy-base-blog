@@ -3,7 +3,7 @@ title: This is my fifth post.
 description: MAKING A SIMPLE BLOG WITH THE SIMPLEST STATIC SITE GENERATOR #.
 date: 2021-02-06
 tags:
-  - fifth post-tag
+  - new-posts-tag
 layout: layouts/post.njk
 ---
 

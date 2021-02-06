@@ -695,3 +695,46 @@ a[href].direct-link:focus:visited,
   position: fixed;
   top: 0;
 }
+
+/*======================================*/
+/*     Seventh post's table style       */
+/*======================================*/
+
+.tftable {
+  font-size:12px;
+  background:url("/img/leopardskin.jpg");
+  width:100%;
+  border-width: 2px;
+  border-color:#800080;
+  border-collapse: collapse; 
+}
+.tftable th {
+  font-size:12px;
+  border-width: 2px;
+  padding: 8px;
+  border-style: solid;
+  border-color: #800080;
+  text-align:center;
+  font-family: 'Rock Salt', cursive;
+  color: #fff;
+}
+    
+.tftable td {
+  font-size:12px;
+  padding: 8px;
+  text-align:center;
+}
+
+#r1, #r3, #r5, #r7{
+  background-color:#ff33cc;
+}
+#r2, #r4, #r6, #r8{
+  background-color:#e495e4;
+}
+#tbtitle, #total{
+  font-family: 'Rock Salt', cursive;
+  text-align:right;
+}
+#totalnum{
+  text-align:left;
+}

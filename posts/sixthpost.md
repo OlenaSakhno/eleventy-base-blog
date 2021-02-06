@@ -3,7 +3,7 @@ title: This is my sixth post.
 description: Markdown examples.
 date: 2021-02-06
 tags:
-  - fifth post-tag
+  - new-posts-tag
 layout: layouts/post.njk
 ---
 ## Markdown lists
